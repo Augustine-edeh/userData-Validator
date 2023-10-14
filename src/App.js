@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AddUser from '../src/Components/UI/Users/AddUser'
+import AddUser from '../src/Components/Users/AddUser'
 
 
 function App() {
