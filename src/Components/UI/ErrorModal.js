@@ -2,11 +2,7 @@ import classes from './ErrorModal.module.css';
 import Card from './Card';
 import Button from './Button';
 
-const ErrorModal = (props) => {
-    const onClickHandler = () => {
-        props.updateIsError(false);
-    };
-    
+const ErrorModal = (props) => {    
     return (
         <div>
             <div className={classes.backdrop} onClick={props.onConfirm}/>
